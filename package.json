@@ -1,0 +1,43 @@
+{
+  "name": "react-audio-pad",
+  "version": "0.1.2",
+  "description": "React Component to build music apps with pads",
+  "main": "build/index.js",
+  "license": "MIT",
+  "keywords": [
+    "react-audio-pad",
+    "pads",
+    "pad",
+    "akai pads",
+    "mpc",
+    "react pads",
+    "audio-pad",
+    "react-audio-pad"
+  ],
+  "peerDependencies": {
+    "react": "^15.5.4"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^15.5.4",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "Dariusz Chynek",
+    "email": "dariuszchynek90@gmail.com"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
+  }
+}
