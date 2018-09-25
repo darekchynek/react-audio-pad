@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 class AudioPad extends React.Component {
   constructor(props) {
     super(props);
-    const { volume, width, height, audioUrl, color } = this.props;
+    const { volume, width, height, audioUrl, color, margin } = this.props;
     this.audio = new Audio(audioUrl);
     this.audio.setAttribute("crossorigin", "anonymous");
     this.audio.volume = volume;
@@ -13,7 +13,7 @@ class AudioPad extends React.Component {
     };
     this.audioBlock = {
       display: "inline-block",
-      margin: "20px"
+      margin: `${margin}px`
     };
     this.defaultStyle = {
       width: `${width}px`,
@@ -72,6 +72,7 @@ AudioPad.propTypes = {
     volume: PropTypes.number,
     width: PropTypes.number,
     height: PropTypes.number,
+    margin: PropTypes.number,
     audioUrl: PropTypes.string,
     color: PropTypes.string,
     keyCode: PropTypes.string,
@@ -81,6 +82,7 @@ AudioPad.defaultProps = {
     volume: 100,
     width: 100,
     height: 100,
+    margin: 20,
     color: "#d127d1",
     keyUp: false
 };

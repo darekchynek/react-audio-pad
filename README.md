@@ -66,9 +66,9 @@ export default App;
     <tbody>
         <tr>
           <td>audioUrl</td>
-          <td>object</td>
+          <td>string</td>
           <td></td>
-          <td>import object from Your assets</td>
+          <td>import string from Your assets - I have some issues when try pass just string - look at example</td>
         </tr>
         <tr>
           <td>keyCode</td>
@@ -105,6 +105,12 @@ export default App;
           <td>number</td>
           <td>100</td>
           <td>height of pad</td>
+        </tr>
+        <tr>
+          <td>margin</td>
+          <td>number</td>
+          <td>20</td>
+          <td>components margin (not only pad part - paragraph too)</td>
         </tr>
     </tbody>
 </table>
