@@ -1,16 +1,17 @@
 ## Audio Pad React Component 
----
+
+It's React Component to create music apps, drum machines, samplers like `Akai MPC` series
+or `Maschine`. In next stages I plan add React-Native component, options for users like volume or change sound support.
+
 <p align="center">
   <img src="https://media.giphy.com/media/3Z1p7RAAAhVmaEI1lj/giphy.gif"/>
 </p>
 
 ## Installation 
----
 
 `npm install react-audio-pad` 
 
 ## Usage 
----
 
 ```js 
 

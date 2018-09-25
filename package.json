@@ -1,7 +1,7 @@
 {
   "name": "react-audio-pad",
-  "version": "0.1.2",
-  "description": "React Component to build music apps with pads",
+  "version": "0.1.3",
+  "description": "React Component to build music apps with pads like Akai MPC or Maschine",
   "main": "build/index.js",
   "license": "MIT",
   "keywords": [
@@ -29,7 +29,8 @@
   },
   "author": {
     "name": "Dariusz Chynek",
-    "email": "dariuszchynek90@gmail.com"
+    "email": "dariuszchynek90@gmail.com",
+    "url": "https://github.com/darekchynek/react-audio-pad" 
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
